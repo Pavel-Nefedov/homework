@@ -11,4 +11,4 @@ unique_brands = [element for element in src if src.count(element) == 1]
 
 print(unique_brands, perf_counter() - start)
 print(type(unique_brands))
-
+#можете подсказать почему здесь каждый раз файл выполняется разное количество времени?
