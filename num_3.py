@@ -4,7 +4,7 @@ hobby_f = open('hobby.csv', 'r', encoding='utf-8')
 user_f = open('users.csv', 'r', encoding='utf-8')
 out_f = open('out_file', 'w', encoding='utf=8')
 """
-он записывал каждый раз на новой строке, чтобы убрать сделал Content и Clean_content
+программа записывала каждый раз на новой строке, чтобы убрать сделал Content и Clean_content
 они создают строку и убирают из нее лишние символы \n
 """
 for user, hobby in zip_longest(user_f, hobby_f):
