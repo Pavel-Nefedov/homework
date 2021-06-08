@@ -1,6 +1,6 @@
 import re
 
-email_adress = ['some.one@geekbrains.ru']
+email_adress = ['someone@geekbrains.ru']
 
 def email_parse(url):
     RE_EMAIL = re.compile(r'\w+[a-z]\@\w+[a-z].\w+[.*\b]')
